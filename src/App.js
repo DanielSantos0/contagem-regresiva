@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import CountdownTimer from './CountdownTimer';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  // Substitua essa data pela data que você quiser
+  const targetDate = '2026-09-06T23:59:59';
+
+return (
+    <div className="app-container">
+      <div className="content-wrapper">
+        <h1 className="title">Contagem Regressiva para o encontro anual da Yakuza Paraense 🎉</h1>
+        <CountdownTimer targetDate={targetDate} />
+      </div>
     </div>
   );
 }
