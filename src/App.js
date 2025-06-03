@@ -13,7 +13,7 @@ return (
     <div className="app-container">
             <img src={imageUrl} alt="Logo" className="corner-logo" />
       <div className="content-wrapper">
-        <h1 className="title">Contagem Regressiva para o encontro anual da Yakuza Paraense em Assis - SP 🎉</h1>
+        <h1 className="title">Contagem Regressiva para o encontro anual da Yakuza Paranaense em Assis - SP 🎉</h1>
         <CountdownTimer targetDate={targetDate} />
       </div>
     </div>
