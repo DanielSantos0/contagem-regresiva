@@ -10,6 +10,16 @@
   animation: gradientBG 5s ease infinite;
 }
 
+.corner-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 20;
+}
+
+
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
